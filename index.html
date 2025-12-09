@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bring Back All Memes (Except Annoying)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bring Back All Memes</h1>
+    <p class="subtitle">Except annoying ones (IDs 6 & 7 auto-excluded)</p>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search memes..." />
+      <select id="tagFilter">
+        <option value="">All tags</option>
+        <option value="classic">classic</option>
+        <option value="wholesome">wholesome</option>
+        <option value="surreal">surreal</option>
+        <option value="italian-brainrot">italian-brainrot</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <div id="grid" class="grid"></div>
+    <div id="empty" class="empty hidden">No memes found (filtered out or not matching).</div>
+  </main>
+
+  <footer>
+    <small>GitHub Pages • JSON-driven • Annoying memes excluded</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
