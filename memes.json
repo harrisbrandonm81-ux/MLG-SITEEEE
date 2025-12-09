@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Doge",
+    "image": "images/doge.jpg",
+    "tags": ["classic", "wholesome"]
+  },
+  {
+    "id": 6,
+    "title": "Overused Zoomer Noise",
+    "image": "images/zoom-noise.jpg",
+    "tags": ["annoying"]
+  },
+  {
+    "id": 7,
+    "title": "Repeating Siren Meme",
+    "image": "images/siren.jpg",
+    "tags": ["annoying", "loud"]
+  },
+  {
+    "id": 12,
+    "title": "Giffinini Tralalero",
+    "image": "images/giffinini.jpg",
+    "tags": ["surreal", "italian-brainrot"]
+  }
+]
